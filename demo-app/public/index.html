@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo Lab — Demo UI</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Todo Lab</h1>
+      <p class="hint">Log in with demo / demo123</p>
+      <section data-testid="login-section">
+        <label>Username <input data-testid="username" type="text" autocomplete="username" /></label>
+        <label
+          >Password <input data-testid="password" type="password" autocomplete="current-password"
+        /></label>
+        <button data-testid="login-button" type="button">Log in</button>
+        <p data-testid="login-error" class="error" hidden></p>
+      </section>
+      <section data-testid="app-section" hidden>
+        <form data-testid="todo-form">
+          <input data-testid="todo-title" name="title" placeholder="New task" required />
+          <button data-testid="add-todo" type="submit">Add</button>
+        </form>
+        <ul data-testid="todo-list"></ul>
+        <p data-testid="empty-state" class="muted">No tasks yet.</p>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
