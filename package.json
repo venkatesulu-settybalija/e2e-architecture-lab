@@ -8,8 +8,26 @@
   "engines": {
     "node": ">=20"
   },
+  "author": "Venkatesulu Settybalija",
+  "email": "venkatesulu.settybalija@gmail.com",
+  "url": "https://github.com/venkatesulu-settybalija",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/venkatesulu-settybalija/e2e-architecture-lab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/venkatesulu-settybalija/e2e-architecture-lab/issues"
+  },
+  "homepage": "https://github.com/venkatesulu-settybalija/e2e-architecture-lab",
+  "keywords": [
+    "e2e",
+    "architecture",
+    "lab",
+    "test",
+    "automation"
+  ],
   "scripts": {
-    "demo:start": "tsx demo-app/server.ts",
+    "demo:start": "DEMO_ENABLE_RESET=true tsx demo-app/server.ts",
     "lint": "eslint . --max-warnings 0",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
