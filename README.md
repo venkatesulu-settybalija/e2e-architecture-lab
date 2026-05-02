@@ -1,8 +1,8 @@
 # E2E Architecture Lab
 
-Public reference project for **SDET / test architecture** interviews: a **self-contained demo app** (Express API + minimal UI) plus a **layered Playwright** solution—**API contracts**, **page objects**, **fixtures**, **tiered projects**, and **GitHub Actions CI**.
+A **self-contained demo app** (Express API + minimal UI) plus a **layered Playwright** solution—**API contracts**, **page objects**, **fixtures**, **tiered projects**, and **GitHub Actions CI**.
 
-> **Not** a production product. It is a **small, honest sandbox** you can fork, extend, and talk about in interviews.
+> **Not** a production product. It is a **small, honest sandbox** you can fork, extend.
 
 ## What this demonstrates
 
